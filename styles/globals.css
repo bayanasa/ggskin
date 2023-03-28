@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -82,7 +86,6 @@
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
 }
 
 body {
@@ -100,8 +103,53 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.main-page {
+  @apply bg-[url(../public/images/header-bg.jpg)] bg-1920 bg-top-center bg-no-repeat
 }
+  .main-page::before {
+    @apply w-full h-full content-[''] absolute left-0 top-[918px] bg-[url(../public/images/middle-bg.jpg)] bg-1920 bg-top-center bg-no-repeat
+  }
+
+.main-title {
+  @apply text-typography-100 font-bold text-[56px]
+}
+
+.logo path {
+  @apply transition-all
+}
+  .logo:hover path:first-of-type {
+    @apply fill-primary
+  }
+  .logo:hover path:last-of-type {
+    @apply fill-white
+  }
+
+.p2p::before {
+  @apply w-full h-full content-[''] absolute left-0 top-0 bg-[url(../public/images/p2p/guns.png)] bg-100 bg-no-repeat
+}
+
+.purchased-bolt {
+  @apply flex items-center absolute left-4 top-[134px] rounded text-typography-500 font-bold px-1.5 text-[10px] leading-5
+  bg-accent-200 before:content-[''] before:relative before:block before:w-[10px] before:h-[10px] before:bg-[url(../public/images/purchased/bolt.svg)]
+  before:mr-1
+}
+
+.purchased-discount {
+  @apply px-2 leading-6 bg-[#FCA36F] text-typography-500 font-bold rounded text-xs absolute bottom-4 right-4
+}
+  .purchased-discount::before, .purchased-discount::after {
+    @apply w-2 h-2 content-[''] rounded-full bg-interface-100 absolute top-0 bottom-0 my-auto
+  }
+  .purchased-discount::before {
+    @apply left-[-4px]
+  }
+  .purchased-discount::after {
+    @apply right-[-4px]
+  }
+
+.social-footer path {
+  @apply transition-all
+}
+  .social-footer:hover path {
+    @apply fill-typography
+  }
