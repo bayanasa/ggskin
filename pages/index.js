@@ -123,7 +123,7 @@ export default function Home() {
           </section>
           <section className="relative max-w-sub mx-auto my-40">
               <div className="relative flex items-center">
-                  <h3 className="main-title">Was purchased just now</h3>
+                  <h2 className="main-title">Was purchased just now</h2>
                   <a className="text-primary-400 ml-auto text-2xl uppercase font-semibold hover:text-primary-200 transition-colors" href="https://">Show all items</a>
               </div>
               <div className="relative mt-[56px] h-[344px] w-full">
@@ -138,15 +138,13 @@ export default function Home() {
                               <img src="images/purchased/sticker.png" alt="Sticker" className="w-full" />
                               <img src="images/purchased/sticker.png" alt="Sticker" className="w-full" />
                           </div>
-                          <h4 className="purchased-bolt">15m</h4>
-                          <div className="absolute left-4 bottom-4">
-                              <div className="font-medium text-sm">
-                                  <h4 className="text-typography-300">AK-47</h4>
-                                  <h4 className="text-typography-100 my-1">Aquamarine Revenge</h4>
-                                  <h4 className="text-typography-300 font-normal">FN / 0.06090110</h4>
-                              </div>
-                              <h4 className="text-typography-400 mt-2 text-[10px]">Recommended: $ 175.68</h4>
-                              <h4 className="text-typography-100 mt-1 text-lg font-bold">$ 168.09</h4>
+                          <span className="purchased-bolt">15m</span>
+                          <div className="absolute left-4 bottom-4 flex flex-col">
+                              <span className="text-typography-300">AK-47</span>
+                              <span className="text-typography-100 my-1">Aquamarine Revenge</span>
+                              <span className="text-typography-300 font-normal">FN / 0.06090110</span>
+                              <span className="text-typography-400 mt-2 text-[10px]">Recommended: $ 175.68</span>
+                              <span className="text-typography-100 mt-1 text-lg font-bold">$ 168.09</span>
                           </div>
                           <span className="purchased-discount">-4%</span>
                       </li>
@@ -160,15 +158,13 @@ export default function Home() {
                               <img src="images/purchased/sticker.png" alt="Sticker" className="w-full" />
                               <img src="images/purchased/sticker.png" alt="Sticker" className="w-full" />
                           </div>
-                          <h4 className="purchased-bolt">15m</h4>
-                          <div className="absolute left-4 bottom-4">
-                              <div className="font-medium text-sm">
-                                  <h4 className="text-typography-300">M4A1-S</h4>
-                                  <h4 className="text-typography-100 my-1">Printstream</h4>
-                                  <h4 className="text-typography-300 font-normal">MW / 0.11612700</h4>
-                              </div>
-                              <h4 className="text-typography-400 mt-2 text-[10px]">Recommended: $ 226.37</h4>
-                              <h4 className="text-typography-100 mt-1 text-lg font-bold">$ 226.27</h4>
+                          <span className="purchased-bolt">15m</span>
+                          <div className="absolute left-4 bottom-4 flex flex-col">
+                              <span className="text-typography-300">AK-47</span>
+                              <span className="text-typography-100 my-1">Aquamarine Revenge</span>
+                              <span className="text-typography-300 font-normal">FN / 0.06090110</span>
+                              <span className="text-typography-400 mt-2 text-[10px]">Recommended: $ 175.68</span>
+                              <span className="text-typography-100 mt-1 text-lg font-bold">$ 168.09</span>
                           </div>
                       </li>
                       <li className="flex h-full w-[290px] bg-interface-100 rounded-lg relative">
@@ -181,15 +177,13 @@ export default function Home() {
                               <img src="images/purchased/sticker.png" alt="Sticker" className="w-full" />
                               <img src="images/purchased/sticker.png" alt="Sticker" className="w-full" />
                           </div>
-                          <h4 className="purchased-bolt">15m</h4>
-                          <div className="absolute left-4 bottom-4">
-                              <div className="font-medium text-sm">
-                                  <h4 className="text-typography-300">AWP</h4>
-                                  <h4 className="text-typography-100 my-1">Wildfire</h4>
-                                  <h4 className="text-typography-300 font-normal">MW / 0.11988400</h4>
-                              </div>
-                              <h4 className="text-typography-400 mt-2 text-[10px]">Recommended: $ 76.78</h4>
-                              <h4 className="text-typography-100 mt-1 text-lg font-bold">$ 74.09</h4>
+                          <span className="purchased-bolt">15m</span>
+                          <div className="absolute left-4 bottom-4 flex flex-col">
+                              <span className="text-typography-300">AK-47</span>
+                              <span className="text-typography-100 my-1">Aquamarine Revenge</span>
+                              <span className="text-typography-300 font-normal">FN / 0.06090110</span>
+                              <span className="text-typography-400 mt-2 text-[10px]">Recommended: $ 175.68</span>
+                              <span className="text-typography-100 mt-1 text-lg font-bold">$ 168.09</span>
                           </div>
                           <span className="purchased-discount">-4%</span>
                       </li>
@@ -203,15 +197,13 @@ export default function Home() {
                               <img src="images/purchased/sticker.png" alt="Sticker" className="w-full" />
                               <img src="images/purchased/sticker.png" alt="Sticker" className="w-full" />
                           </div>
-                          <h4 className="purchased-bolt">15m</h4>
-                          <div className="absolute left-4 bottom-4">
-                              <div className="font-medium text-sm">
-                                  <h4 className="text-typography-300">USP-S</h4>
-                                  <h4 className="text-typography-100 my-1">Blue Print</h4>
-                                  <h4 className="text-typography-300 font-normal">FN / 0.06090110</h4>
-                              </div>
-                              <h4 className="text-typography-400 mt-2 text-[10px]">Recommended: $ 5.05</h4>
-                              <h4 className="text-typography-100 mt-1 text-lg font-bold">$ 4.83</h4>
+                          <span className="purchased-bolt">15m</span>
+                          <div className="absolute left-4 bottom-4 flex flex-col">
+                              <span className="text-typography-300">AK-47</span>
+                              <span className="text-typography-100 my-1">Aquamarine Revenge</span>
+                              <span className="text-typography-300 font-normal">FN / 0.06090110</span>
+                              <span className="text-typography-400 mt-2 text-[10px]">Recommended: $ 175.68</span>
+                              <span className="text-typography-100 mt-1 text-lg font-bold">$ 168.09</span>
                           </div>
                       </li>
                       <li className="flex h-full w-[290px] bg-interface-100 rounded-lg relative">
@@ -224,15 +216,13 @@ export default function Home() {
                               <img src="images/purchased/sticker.png" alt="Sticker" className="w-full" />
                               <img src="images/purchased/sticker.png" alt="Sticker" className="w-full" />
                           </div>
-                          <h4 className="purchased-bolt">15m</h4>
-                          <div className="absolute left-4 bottom-4">
-                              <div className="font-medium text-sm">
-                                  <h4 className="text-typography-300">Glock-18</h4>
-                                  <h4 className="text-typography-100 my-1">Water Elemental</h4>
-                                  <h4 className="text-typography-300 font-normal">FT / 0.29176400</h4>
-                              </div>
-                              <h4 className="text-typography-400 mt-2 text-[10px]">Recommended: $ 10.82</h4>
-                              <h4 className="text-typography-100 mt-1 text-lg font-bold">$ 10.20</h4>
+                          <span className="purchased-bolt">15m</span>
+                          <div className="absolute left-4 bottom-4 flex flex-col">
+                              <span className="text-typography-stattrack">AK-47</span>
+                              <span className="text-typography-100 my-1">Aquamarine Revenge</span>
+                              <span className="text-typography-300 font-normal">FN / 0.06090110</span>
+                              <span className="text-typography-400 mt-2 text-[10px]">Recommended: $ 175.68</span>
+                              <span className="text-typography-100 mt-1 text-lg font-bold">$ 168.09</span>
                           </div>
                           <span className="purchased-discount">-6%</span>
                       </li>
@@ -246,15 +236,13 @@ export default function Home() {
                               <img src="images/purchased/sticker.png" alt="Sticker" className="w-full" />
                               <img src="images/purchased/sticker.png" alt="Sticker" className="w-full" />
                           </div>
-                          <h4 className="purchased-bolt">15m</h4>
-                          <div className="absolute left-4 bottom-4">
-                              <div className="font-medium text-sm">
-                                  <h4 className="text-typography-stattrack">ST™ AK-47</h4>
-                                  <h4 className="text-typography-100 my-1">Aquamarine Revenge</h4>
-                                  <h4 className="text-typography-300 font-normal">FN / 0.06090110</h4>
-                              </div>
-                              <h4 className="text-typography-400 mt-2 text-[10px]">Recommended: $ 175.68</h4>
-                              <h4 className="text-typography-100 mt-1 text-lg font-bold">$ 168.09</h4>
+                          <span className="purchased-bolt">15m</span>
+                          <div className="absolute left-4 bottom-4 flex flex-col">
+                              <span className="text-typography-stattrack">AK-47</span>
+                              <span className="text-typography-100 my-1">Aquamarine Revenge</span>
+                              <span className="text-typography-300 font-normal">FN / 0.06090110</span>
+                              <span className="text-typography-400 mt-2 text-[10px]">Recommended: $ 175.68</span>
+                              <span className="text-typography-100 mt-1 text-lg font-bold">$ 168.09</span>
                           </div>
                       </li>
                       <li className="flex h-full w-[290px] bg-interface-100 rounded-lg relative">
@@ -267,15 +255,13 @@ export default function Home() {
                               <img src="images/purchased/sticker.png" alt="Sticker" className="w-full" />
                               <img src="images/purchased/sticker.png" alt="Sticker" className="w-full" />
                           </div>
-                          <h4 className="purchased-bolt">15m</h4>
-                          <div className="absolute left-4 bottom-4">
-                              <div className="font-medium text-sm">
-                                  <h4 className="text-typography-300">AK-47</h4>
-                                  <h4 className="text-typography-100 my-1">Aquamarine Revenge</h4>
-                                  <h4 className="text-typography-300 font-normal">FN / 0.06090110</h4>
-                              </div>
-                              <h4 className="text-typography-400 mt-2 text-[10px]">Recommended: $ 175.68</h4>
-                              <h4 className="text-typography-100 mt-1 text-lg font-bold">$ 168.09</h4>
+                          <span className="purchased-bolt">15m</span>
+                          <div className="absolute left-4 bottom-4 flex flex-col">
+                              <span className="text-typography-stattrack">AK-47</span>
+                              <span className="text-typography-100 my-1">Aquamarine Revenge</span>
+                              <span className="text-typography-300 font-normal">FN / 0.06090110</span>
+                              <span className="text-typography-400 mt-2 text-[10px]">Recommended: $ 175.68</span>
+                              <span className="text-typography-100 mt-1 text-lg font-bold">$ 168.09</span>
                           </div>
                           <span className="purchased-discount">-4%</span>
                       </li>
@@ -289,15 +275,13 @@ export default function Home() {
                               <img src="images/purchased/sticker.png" alt="Sticker" className="w-full" />
                               <img src="images/purchased/sticker.png" alt="Sticker" className="w-full" />
                           </div>
-                          <h4 className="purchased-bolt">15m</h4>
-                          <div className="absolute left-4 bottom-4">
-                              <div className="font-medium text-sm">
-                                  <h4 className="text-typography-300">M4A1-S</h4>
-                                  <h4 className="text-typography-100 my-1">Printstream</h4>
-                                  <h4 className="text-typography-300 font-normal">MW / 0.11612700</h4>
-                              </div>
-                              <h4 className="text-typography-400 mt-2 text-[10px]">Recommended: $ 226.37</h4>
-                              <h4 className="text-typography-100 mt-1 text-lg font-bold">$ 226.27</h4>
+                          <span className="purchased-bolt">15m</span>
+                          <div className="absolute left-4 bottom-4 flex flex-col">
+                              <span className="text-typography-stattrack">AK-47</span>
+                              <span className="text-typography-100 my-1">Aquamarine Revenge</span>
+                              <span className="text-typography-300 font-normal">FN / 0.06090110</span>
+                              <span className="text-typography-400 mt-2 text-[10px]">Recommended: $ 175.68</span>
+                              <span className="text-typography-100 mt-1 text-lg font-bold">$ 168.09</span>
                           </div>
                       </li>
                   </ul>
@@ -305,7 +289,7 @@ export default function Home() {
           </section>
           <section className="relative">
               <div className="max-w-sub mx-auto">
-                  <h3 className="main-title">About us</h3>
+                  <h2 className="main-title">About us</h2>
                   <div className="flex mt-[56px] flex-row space-x-8">
                       <div className="basis-1/3 space-y-8 flex flex-col">
                           <div className="w-full flex h-[24rem] bg-about-us rounded-xl p-12 flex-col relative">
@@ -334,7 +318,7 @@ export default function Home() {
           </section>
           <section className="relative mt-40">
               <div className="max-w-sub mx-auto">
-                  <h3 className="main-title">First steps</h3>
+                  <h2 className="main-title">First steps</h2>
                   <ul className="flex space-x-8 mt-[3rem]">
                       <li className="basis-1/5">
                           <div className="border-4 rounded-t-[2.5rem] rounded-br-[2.5rem] bg-interface-300 border-interface-300 h-[24.125rem] w-full">
