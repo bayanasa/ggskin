@@ -153,3 +153,23 @@ a {
   .social-footer:hover path {
     @apply fill-typography
   }
+
+.onboarding-close-button {
+  @apply w-6 h-6 absolute top-6 right-6
+}
+  .onboarding-close-button path {
+    @apply transition-all
+  }
+  .onboarding-close-button:hover path {
+    @apply fill-interface-700
+  }
+
+  .onboarding-chrome-link {
+    @apply mt-10 w-[19rem] p-4 flex items-center rounded-r-[3rem] rounded-l-lg border-2 border-onboarding-200 bg-interface-300
+  }
+    .onboarding-chrome-link:hover {
+      @apply bg-interface-400
+    }
+    .onboarding-chrome-download {
+      @apply w-12 h-12 rounded-3xl bg-onboarding-300 border-2 border-onboarding-300 relative ml-auto transition-colors
+    }

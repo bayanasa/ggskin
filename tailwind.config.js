@@ -251,6 +251,16 @@ module.exports = {
       maxWidth: {
         'main': '1910px',
         'sub': '1740px'
+      },
+      borderColor: {
+        'onboarding-100': 'rgba(123, 210, 239, .16)',
+        'onboarding-200': 'rgba(123, 210, 239, .08)',
+        'onboarding-300': 'rgba(76, 194, 234, .48)'
+      },
+      backgroundColor: {
+        'onboarding-100': 'rgba(123, 210, 239, .04)',
+        'onboarding-200': 'rgba(123, 210, 239, .08)',
+        'onboarding-300': 'rgba(76, 194, 234, .12)'
       }
     }
   },
